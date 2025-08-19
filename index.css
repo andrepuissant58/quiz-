@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#question {
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+#answers button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.controls button {
+  margin: 10px;
+  padding: 10px 15px;
+  font-size: 1em;
+}
+
+#feedback {
+  margin-top: 20px;
+  font-weight: bold;
+}
